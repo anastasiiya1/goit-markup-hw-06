@@ -21,10 +21,8 @@
     <!-- Navigation -->
     <header class="navigation-section">
         <div class="container header-container">
-            <div class="modal-menu-container">
                 <nav class="nav-menu">
                     <a class="logo-link" href="./index.html">Web<span class="logo-span">Studio</span></a>
-                    </button>
                     <ul class="nav-menu-list">
                         <li class="list-item"><a class="nav-menu-link current" href="./index.html">Studio</a></li>
                         <li class="list-item"><a class="nav-menu-link" href="">Portfolio</a></li>
@@ -41,15 +39,11 @@
                         </li>
                     </ul>
                 </address>
-            </div>
-            
             <button class="menu-btn" type="button">
                 <svg class="icon-menu" width="24" height="24">
                     <use  href="./images/icons.svg#icon-menu"></use>
                 </svg>
-                <svg class="modal-btn-icon" width="8" height="8">
-                    <use href="./images/icons.svg#icon-close-black"></use>
-                </svg>
+            </button>
         </div>
     </header>
     <main>
@@ -426,7 +420,7 @@
         </div>
     </footer>
     <!-- Modal -->
-    <!-- <div class="backdrop is-open">
+    <div class="backdrop">
         <div class="modal">
             <button type="button" class="modal-btn">
                 <svg class="modal-btn-icon" width="8" height="8">
@@ -482,9 +476,62 @@
                 <button type="submit" class="modal-send-btn">Send</button>
             </form>
         </div>
-    </div> -->
-
-
+    </div>
+    <!-- Mobile-menu -->
+        <div class="mobile-backdrop">
+            <div class="mobile-container">
+                <button type="button" class="modal-btn">
+                    <svg class="modal-btn-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black"></use>
+                    </svg>
+                </button>
+                <ul class="mob-menu-list">
+                    <li class="mob-item"><a class="nav-menu-link" href="./index.html">Studio</a></li>
+                    <li class="mob-item"><a class="nav-menu-link" href="">Portfolio</a></li>
+                    <li class="mob-item"><a class="nav-menu-link" href="">Contacts</a></li>
+                </ul>
+                <address>
+                    <ul class="mob-contacts-list">
+                        <li>
+                            <a class="mob-contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li>
+                            <a class="mob-contact-item" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                    </ul>
+                </address>
+                <ul class="social-link-list">
+                    <li class="social-link-item"><a href="https://www.instagram.com/" target="_blank"
+                            class="social-link">
+                            <svg class="social-link-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-instagram-2">
+                                </use>
+                            </svg>
+                        </a></li>
+                    <li class="social-link-item"><a href="https://www.twitter.com/" target="_blank"
+                            class="social-link">
+                            <svg class="social-link-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-twitter-1">
+                                </use>
+                            </svg>
+                        </a></li>
+                    <li class="social-link-item"><a href="https://www.facebook.com/" target="_blank"
+                            class="social-link">
+                            <svg class="social-link-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-facebook-1">
+                                </use>
+                            </svg>
+                        </a></li>
+                    <li class="social-link-item"><a href="https://www.linkedin.com/" target="_blank"
+                            class="social-link">
+                            <svg class="social-link-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-linkedin-1">
+                                </use>
+                            </svg>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
 </body>
 
 </html>
