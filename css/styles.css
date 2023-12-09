@@ -358,7 +358,17 @@ address {
       background-size: cover;
       background-repeat: no-repeat;
   }
-  
+
+  @media screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-mobile@2x.jpg);
+    }
+  }
   /* Tablet */
   @media screen and (min-width: 768px){
     .first-section{
@@ -376,6 +386,17 @@ address {
     }
   }
 
+  @media screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-tabet@2x.jpg);
+    }
+  }
+
   /* Desktop */
   @media screen and (min-width: 1158px){
     .first-section{
@@ -390,6 +411,17 @@ address {
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;     
+    }
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/office@2x.jpg);
     }
   }
 
