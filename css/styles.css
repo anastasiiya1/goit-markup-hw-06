@@ -537,9 +537,14 @@ address {
     }
     .features-list{
         display: flex;
-        gap: 24px;
+        gap: 72px 24px;
         flex-wrap: wrap;
     }
+
+    .features-list-item{
+      margin-bottom: 0;
+    }
+
     .features-list .features-list-item {
         width: calc((100% - 24px) / 2);
       }
@@ -607,10 +612,6 @@ address {
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 
-  .team-list-item:last-child{
-    margin-bottom: 0;
-  }
-
   .team-member-card {
     padding: 32px 0;
   }
@@ -663,11 +664,12 @@ address {
 @media screen and (min-width: 768px){
     .team-list {
         display: flex;
-        gap: 24px;
+        gap: 64px 24px;
         flex-wrap: wrap;
+        justify-content: center;
       }
       .team-list-item {
-        margin: 0 auto;
+        margin: 0;
     }
 }
 
@@ -724,12 +726,12 @@ address {
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 72px;
-    padding: 0 auto;
+    gap: 72px 24px;
+    /* padding: 0 auto; */
 }
 .portfolio-list-item {
     width: calc((100% - 24px) / 2);
+    margin-bottom: 0;
   }
 }
 
@@ -787,6 +789,10 @@ address {
     margin-bottom: 72px;
   }
 
+  .footer-socials{
+    margin-bottom: 72px;
+  }
+
 .footer-logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -830,7 +836,6 @@ address {
   .social-media-container {
     display: flex;
     gap: 16px;
-    margin-bottom: 72px;
   }
 
   .social-media-link {
@@ -918,6 +923,8 @@ address {
     display: flex;
     margin: 0 auto;
     gap: 24px;
+    align-items: baseline;
+    
   }
 
   .social-link-container{
@@ -938,6 +945,7 @@ address {
 
 /* Desktop */
 @media screen and (min-width: 1158px){
+
   .footer-container {
     display: flex;
     align-items: baseline;
@@ -954,6 +962,7 @@ address {
 
   .logo-container {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 
   .social-link-container {
@@ -969,6 +978,7 @@ address {
   .subcribe-container {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
   }
 }
 
